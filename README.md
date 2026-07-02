@@ -1,40 +1,37 @@
 # Karst VPN Landing Page
 
-Сайт-лендинг для **Karst VPN** — простого и удобного клиента для работы с VPN-ссылками (VLESS) и подписками на Windows и Android.
+Landing page for Karst VPN, a VLESS-link and subscription client for Windows and Android.
 
-Сайт разработан с использованием React, TypeScript, Vanilla CSS и Vite.
+Stack: React, TypeScript, Vite, vanilla CSS. Package manager: pnpm.
 
-## Особенности
-- **Интерактивный Hero-экран**: Эффектный вступительный экран с параллакс-эффектом, динамическим масштабированием и размытием при прокрутке.
-- **Плавное появление контента**: Плавный въезд карточек разделов при скролле (Scroll Reveal) через Intersection Observer.
-- **Полная адаптивность**: Оптимизированный дизайн для мобильных устройств, планшетов и широкоформатных мониторов.
-- **Минимализм и высокая производительность**: Быстрая загрузка и компиляция без тяжелых CSS-фреймворков.
+## Development
 
-## Использование `pnpm`
-
-Проект переведен на использование пакетного менеджера **pnpm**.
-
-### Разработка
-Запуск локального сервера разработки (сервер жестко привязан к IPv4 `127.0.0.1` для корректного локального тестирования):
 ```bash
 pnpm dev
 ```
 
-### Сборка
-Сборка статических файлов для продакшена в директорию `dist/`:
+Dev server is bound to `127.0.0.1`.
+
+## Build
+
 ```bash
 pnpm build
 ```
 
-### Локальный просмотр билда
-Запуск локального сервера для просмотра собранного продакшен-билда:
+Outputs static files to `dist/`.
+
+## Preview
+
 ```bash
 pnpm preview
 ```
 
-### Деплой на GitHub Pages
-Для публикации проекта на GitHub Pages используется скрипт деплоя. Запуск деплоя:
+Serves the production build locally.
+
+## Deploy to GitHub Pages
+
 ```bash
 pnpm run deploy
 ```
-*Скрипт автоматически компилирует проект и отправляет содержимое папки `dist/` в ветку `gh-pages` вашего репозитория.*
+
+Builds the project and pushes `dist/` to the `gh-pages` branch via the `gh-pages` package.
