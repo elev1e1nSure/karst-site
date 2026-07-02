@@ -1,32 +1,40 @@
-# React + TypeScript + Vite
+# Karst VPN Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Сайт-лендинг для **Karst VPN** — простого и удобного клиента для работы с VPN-ссылками (VLESS) и подписками на Windows и Android.
 
-Currently, two official plugins are available:
+Сайт разработан с использованием React, TypeScript, Vanilla CSS и Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Особенности
+- **Интерактивный Hero-экран**: Эффектный вступительный экран с параллакс-эффектом, динамическим масштабированием и размытием при прокрутке.
+- **Плавное появление контента**: Плавный въезд карточек разделов при скролле (Scroll Reveal) через Intersection Observer.
+- **Полная адаптивность**: Оптимизированный дизайн для мобильных устройств, планшетов и широкоформатных мониторов.
+- **Минимализм и высокая производительность**: Быстрая загрузка и компиляция без тяжелых CSS-фреймворков.
 
-## React Compiler
+## Использование `pnpm`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Проект переведен на использование пакетного менеджера **pnpm**.
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Разработка
+Запуск локального сервера разработки (сервер жестко привязан к IPv4 `127.0.0.1` для корректного локального тестирования):
+```bash
+pnpm dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Сборка
+Сборка статических файлов для продакшена в директорию `dist/`:
+```bash
+pnpm build
+```
+
+### Локальный просмотр билда
+Запуск локального сервера для просмотра собранного продакшен-билда:
+```bash
+pnpm preview
+```
+
+### Деплой на GitHub Pages
+Для публикации проекта на GitHub Pages используется скрипт деплоя. Запуск деплоя:
+```bash
+pnpm run deploy
+```
+*Скрипт автоматически компилирует проект и отправляет содержимое папки `dist/` в ветку `gh-pages` вашего репозитория.*

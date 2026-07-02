@@ -1,0 +1,75 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Скачать на Android" [ref=e6] [cursor=pointer]:
+          - /url: https://github.com/elev1e1nSure/karst-vpn/releases/latest
+          - img [ref=e8]
+          - generic [ref=e10]: Скачать на Android
+        - link "Скачать на Windows" [ref=e11] [cursor=pointer]:
+          - /url: https://github.com/elev1e1nSure/karst-vpn-desktop/releases/latest
+          - img [ref=e13]
+          - generic [ref=e15]: Скачать на Windows
+      - link "GitHub" [ref=e16] [cursor=pointer]:
+        - /url: https://github.com/elev1e1nSure/karst
+        - img [ref=e18]
+        - generic [ref=e20]: GitHub
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: Windows · Android
+      - heading "Karst VPN" [level=1] [ref=e25]
+      - paragraph [ref=e26]: Приложение для работы с VPN-ссылками и подписками. Добавление ссылки, выбор сервера, запуск и остановка соединения.
+      - generic [ref=e27]:
+        - link "Android" [ref=e28] [cursor=pointer]:
+          - /url: https://github.com/elev1e1nSure/karst-vpn/releases/latest
+          - img [ref=e30]
+          - generic [ref=e32]: Android
+        - link "Windows" [ref=e33] [cursor=pointer]:
+          - /url: https://github.com/elev1e1nSure/karst-vpn-desktop/releases/latest
+          - img [ref=e35]
+          - generic [ref=e37]: Windows
+    - img "Karst App Screenshot" [ref=e40]
+  - generic [ref=e42]:
+    - paragraph [ref=e43]: Что это
+    - paragraph [ref=e44]: Karst принимает VLESS-ссылки и URL подписок. После добавления ссылка отображается в списке серверов.
+    - paragraph [ref=e45]: В приложении есть список серверов, состояние соединения, настройки маршрутизации и журнал событий.
+  - generic [ref=e47]:
+    - paragraph [ref=e48]: Платформы
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Android" [level=3] [ref=e51]
+        - paragraph [ref=e52]: Версия для мобильной системы
+        - list [ref=e53]:
+          - listitem [ref=e54]: Серверы и подписки
+          - listitem [ref=e55]: Работа после сворачивания
+          - listitem [ref=e56]: Тёмная тема
+        - link "Скачать .apk" [ref=e57] [cursor=pointer]:
+          - /url: https://github.com/elev1e1nSure/karst-vpn/releases/latest
+          - img [ref=e59]
+          - generic [ref=e61]: Скачать .apk
+      - generic [ref=e62]:
+        - heading "Windows" [level=3] [ref=e63]
+        - paragraph [ref=e64]: Версия для настольной системы
+        - list [ref=e65]:
+          - listitem [ref=e66]: Добавление сервера или подписки по ссылке
+          - listitem [ref=e67]: Несколько режимов маршрутизации
+          - listitem [ref=e68]: Журнал событий
+        - link "Скачать .exe" [ref=e69] [cursor=pointer]:
+          - /url: https://github.com/elev1e1nSure/karst-vpn-desktop/releases/latest
+          - img [ref=e71]
+          - generic [ref=e73]: Скачать .exe
+  - generic [ref=e75]:
+    - paragraph [ref=e76]: Что к чему
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - heading "Импорт" [level=4] [ref=e79]
+        - paragraph [ref=e80]: Импортируй конфиг вида vless:// или подписку в списке серверов.
+      - generic [ref=e81]:
+        - heading "Меню подписки" [level=4] [ref=e82]
+        - paragraph [ref=e83]: Можно глянуть — сколько трафика ушло, сколько осталось, когда кончится подписка.
+      - generic [ref=e84]:
+        - heading "Автообновление" [level=4] [ref=e85]
+        - paragraph [ref=e86]: Подписки обновляются по расписанию заданному сервисом/тобой расписанию или каждые N часов, если задать в настройках.
+      - generic [ref=e87]:
+        - heading "Роутинг" [level=4] [ref=e88]
+        - paragraph [ref=e89]: Пусть VPN-трафик идёт в обход локальной сети и русских сервисов.

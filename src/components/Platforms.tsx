@@ -7,9 +7,32 @@ export const Platforms: React.FC = () => {
   return (
     <section className="platforms" ref={revealRef}>
       <div className="wrap">
-        <p className="section-label reveal">Платформы</p>
+        <p className="section-label reveal reveal-about">Платформы</p>
         <div className="platforms-grid">
-          <div className="platform-card reveal delay-1">
+          <div className="platform-card">
+            <h3>Android</h3>
+            <p className="sub">Версия для мобильной системы</p>
+            <ul>
+              <li>Серверы и подписки</li>
+              <li>Работа после сворачивания</li>
+              <li>Тёмная тема</li>
+            </ul>
+            <a
+              className="btn btn-primary"
+              href="https://github.com/elev1e1nSure/karst-vpn/releases/latest"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M8.05 6.1 6.8 4.15a.7.7 0 0 1 .22-.97.68.68 0 0 1 .95.22l1.3 2.02a7.55 7.55 0 0 1 5.46 0l1.3-2.02a.68.68 0 0 1 .95-.22.7.7 0 0 1 .22.97L15.95 6.1A6.8 6.8 0 0 1 19 11.55H5A6.8 6.8 0 0 1 8.05 6.1ZM9.1 9.15a.85.85 0 1 0 0-1.7.85.85 0 0 0 0 1.7Zm5.8 0a.85.85 0 1 0 0-1.7.85.85 0 0 0 0 1.7ZM5 12.75h14v5.1A2.15 2.15 0 0 1 16.85 20H7.15A2.15 2.15 0 0 1 5 17.85v-5.1Z" />
+                </svg>
+              </span>
+              <span>Скачать .apk</span>
+            </a>
+          </div>
+
+          <div className="platform-card">
             <h3>Windows</h3>
             <p className="sub">Версия для настольной системы</p>
             <ul>
@@ -29,29 +52,6 @@ export const Platforms: React.FC = () => {
                 </svg>
               </span>
               <span>Скачать .exe</span>
-            </a>
-          </div>
-
-          <div className="platform-card reveal delay-2">
-            <h3>Android</h3>
-            <p className="sub">Версия для мобильной системы</p>
-            <ul>
-              <li>Серверы и подписки</li>
-              <li>Работа после сворачивания</li>
-              <li>Тёмная тема</li>
-            </ul>
-            <a
-              className="btn btn-secondary"
-              href="https://github.com/elev1e1nSure/karst-vpn/releases/latest"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="btn-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M8.05 6.1 6.8 4.15a.7.7 0 0 1 .22-.97.68.68 0 0 1 .95.22l1.3 2.02a7.55 7.55 0 0 1 5.46 0l1.3-2.02a.68.68 0 0 1 .95-.22.7.7 0 0 1 .22.97L15.95 6.1A6.8 6.8 0 0 1 19 11.55H5A6.8 6.8 0 0 1 8.05 6.1ZM9.1 9.15a.85.85 0 1 0 0-1.7.85.85 0 0 0 0 1.7Zm5.8 0a.85.85 0 1 0 0-1.7.85.85 0 0 0 0 1.7ZM5 12.75h14v5.1A2.15 2.15 0 0 1 16.85 20H7.15A2.15 2.15 0 0 1 5 17.85v-5.1Z" />
-                </svg>
-              </span>
-              <span>Скачать .apk</span>
             </a>
           </div>
         </div>

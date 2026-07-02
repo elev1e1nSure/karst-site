@@ -47,19 +47,6 @@ export const Hero: React.FC = () => {
           <div className="cta-row hero-load-anim hero-load-delay-3">
             <a
               className="btn btn-primary"
-              href="https://github.com/elev1e1nSure/karst-vpn-desktop/releases/latest"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="btn-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M3 5.1 10.7 4v7.3H3V5.1Zm8.7-1.25L21 2.5v8.8h-9.3V3.85ZM3 12.7h7.7V20L3 18.9v-6.2Zm8.7 0H21v8.8l-9.3-1.35V12.7Z" />
-                </svg>
-              </span>
-              <span>Windows</span>
-            </a>
-            <a
-              className="btn btn-secondary"
               href="https://github.com/elev1e1nSure/karst-vpn/releases/latest"
               target="_blank"
               rel="noopener noreferrer"
@@ -70,6 +57,19 @@ export const Hero: React.FC = () => {
                 </svg>
               </span>
               <span>Android</span>
+            </a>
+            <a
+              className="btn btn-secondary"
+              href="https://github.com/elev1e1nSure/karst-vpn-desktop/releases/latest"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M3 5.1 10.7 4v7.3H3V5.1Zm8.7-1.25L21 2.5v8.8h-9.3V3.85ZM3 12.7h7.7V20L3 18.9v-6.2Zm8.7 0H21v8.8l-9.3-1.35V12.7Z" />
+                </svg>
+              </span>
+              <span>Windows</span>
             </a>
           </div>
         </div>
