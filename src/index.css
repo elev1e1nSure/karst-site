@@ -131,6 +131,7 @@ header.is-scrolled .wrap {
   padding: 0 18px;
   display: inline-flex;
   align-items: center;
+  gap: 6px;
   border-radius: 10px;
   background: rgba(234, 232, 228, .045);
   color: rgba(234, 232, 228, .9);

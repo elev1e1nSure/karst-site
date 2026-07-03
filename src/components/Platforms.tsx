@@ -11,11 +11,11 @@ export const Platforms: React.FC = () => {
         <div className="platforms-grid">
           <div className="platform-card">
             <h3>Android</h3>
-            <p className="sub">Версия для мобильной системы</p>
+            <p className="sub">Версия для мобилок</p>
             <ul>
               <li>Серверы и подписки</li>
-              <li>Работа после сворачивания</li>
-              <li>Тёмная тема</li>
+              <li>Настройка роутинга</li>
+              <li>Автообновление подписок</li>
             </ul>
             <a
               className="btn btn-primary"
@@ -34,11 +34,11 @@ export const Platforms: React.FC = () => {
 
           <div className="platform-card">
             <h3>Windows</h3>
-            <p className="sub">Версия для настольной системы</p>
+            <p className="sub">Версия для ПК</p>
             <ul>
-              <li>Добавление сервера или подписки по ссылке</li>
-              <li>Несколько режимов маршрутизации</li>
-              <li>Журнал событий</li>
+              <li>Всё тоже самое, что в Android</li>
+              <li>Tauri под капотом (крутой фреймворк)</li>
+              <li>gvisor для поднятия VPN туннеля</li>
             </ul>
             <a
               className="btn btn-secondary"

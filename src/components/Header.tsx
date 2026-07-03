@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
         </div>
         <a
           className="repo-link"
-          href="https://github.com/elev1e1nSure/karst"
+          href="https://github.com/elev1e1nSure/karst-vpn"
           target="_blank"
           rel="noopener noreferrer"
         >

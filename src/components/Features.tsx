@@ -11,7 +11,7 @@ export const Features: React.FC = () => {
         <div className="features-list">
           <div className="feature-row">
             <h4>Импорт</h4>
-            <p>Импортируй конфиг вида vless:// или подписку в списке серверов.</p>
+            <p>Импортируй конфиг вида vless:// или подписку в меню серверов.</p>
           </div>
 
           <div className="feature-row">

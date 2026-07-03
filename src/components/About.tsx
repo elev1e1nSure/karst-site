@@ -9,10 +9,9 @@ export const About: React.FC = () => {
       <div className="wrap">
         <p className="section-label reveal reveal-about">Что это</p>
         <p className="reveal reveal-about delay-1">
-          Karst принимает VLESS-ссылки и URL подписок. После добавления ссылка отображается в списке
-          серверов.
+          Karst принимает VLESS-ссылки и URL ваших подписок. После добавления — сервер появится в списке.
         </p>
-        <p className="reveal reveal-about delay-2">В приложении есть список серверов, состояние соединения и настройки маршрутизации. В десктопной версии также доступен журнал событий с фильтром по уровню.</p>
+        <p className="reveal reveal-about delay-2">В приложении есть список серверов, пинг до них и настройки роутинга.</p>
       </div>
     </section>
   );

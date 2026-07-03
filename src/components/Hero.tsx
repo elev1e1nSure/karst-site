@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
       if (!heroRef.current) return;
       const rect = heroRef.current.getBoundingClientRect();
       const heroHeight = rect.height || 800;
-      
+
       const currentScroll = window.scrollY;
       const progress = Math.min(Math.max(currentScroll / heroHeight, 0), 1);
       setScrollProgress(progress);
@@ -41,8 +41,7 @@ export const Hero: React.FC = () => {
           <p className="eyebrow hero-load-anim">Windows · Android</p>
           <h1 className="hero-load-anim hero-load-delay-1">Karst VPN</h1>
           <p className="hero-load-anim hero-load-delay-2">
-            Приложение для работы с VPN-ссылками и подписками. Добавление ссылки, выбор сервера, запуск и
-            остановка соединения.
+            Karst — удобный VPN-клиент для windows и android на базе sing-box с поддержкой VLESS. Добавляй свои подписки, конфиги, смотри пинг и настраивай роутинг.
           </p>
           <div className="cta-row hero-load-anim hero-load-delay-3">
             <a
