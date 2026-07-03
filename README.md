@@ -1,37 +1,39 @@
-# Karst VPN Landing Page
+# Karst VPN (Landing Page)
 
-Landing page for Karst VPN, a VLESS-link and subscription client for Windows and Android.
+Лендинг для [Karst VPN](https://github.com/elev1e1nSure/karst-vpn) — приложения для Windows и Android, работающего с VLESS-ссылками и подписками.
 
-Stack: React, TypeScript, Vite, vanilla CSS. Package manager: pnpm.
+Приложения:
+- [Karst VPN для Android](https://github.com/elev1e1nSure/karst-vpn)
+- [Karst VPN для Windows](https://github.com/elev1e1nSure/karst-vpn-desktop)
 
-## Development
+Стек: React, TypeScript, Vite, vanilla CSS. Пакетный менеджер: pnpm.
+
+## Разработка
 
 ```bash
 pnpm dev
 ```
 
-Dev server is bound to `127.0.0.1`.
+Dev-сервер поднимается на `127.0.0.1`.
 
-## Build
+## Сборка
 
 ```bash
 pnpm build
 ```
 
-Outputs static files to `dist/`.
+Статика собирается в `dist/`.
 
-## Preview
+## Предпросмотр
 
 ```bash
 pnpm preview
 ```
 
-Serves the production build locally.
-
-## Deploy to GitHub Pages
+## Деплой в GitHub Pages
 
 ```bash
 pnpm run deploy
 ```
 
-Builds the project and pushes `dist/` to the `gh-pages` branch via the `gh-pages` package.
+Собирает проект и пушит `dist/` в ветку `gh-pages`.
